@@ -1,0 +1,94 @@
+#  _____                                _               __  __                             ______               _       
+# |  __ \                              | |             |  \/  |                           |  ____|             | |      
+# | |  | | ___   ___  _ __ ___  ___  __| | __ _ _   _  | \  / | ___ _ __  _   _   ______  | |____   _____ _ __ | |_ ___ 
+# | |  | |/ _ \ / _ \| '_ ` _ \/ __|/ _` |/ _` | | | | | |\/| |/ _ \ '_ \| | | | |______| |  __\ \ / / _ \ '_ \| __/ __|
+# | |__| | (_) | (_) | | | | | \__ \ (_| | (_| | |_| | | |  | |  __/ | | | |_| |          | |___\ V /  __/ | | | |_\__ \
+# |_____/ \___/ \___/|_| |_| |_|___/\__,_|\__,_|\__, | |_|  |_|\___|_| |_|\__,_|          |______\_/ \___|_| |_|\__|___/
+#                                                __/ |                                                                  
+#                                               |___/                                                                                                                                     
+
+open_command: extraevents
+register_command: true
+size: 27
+menu_title: '      &#440F50&lᴀ&#461057&lᴅ&#49125F&lᴅ&#4B1366&lɪ&#4D156E&lᴛ&#4F1675&lɪ&#52177D&lᴏ&#541984&lɴ&#561A8C&lᴀ&#581C93&lʟ &#5B1D9B&lᴇ&#5D1EA2&lᴠ&#5F20AA&lᴇ&#6121B1&lɴ&#6423B9&lᴛ&#6624C0&lꜱ'
+update_interval: 1
+
+
+items:
+  'fillerItems':
+    material: BLACK_STAINED_GLASS_PANE
+    slots: 
+    - 0-10
+    - 16-44
+    
+  'buildingChallenge':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWU1NGFiYmM2NWIxM2E0MmMyOTU5MGEwY2Y5ZDNlMDA3MDJkMWU2MGQ5NzRmOTI4NmE3YzE3MjY3ZjIyODJjOSJ9fX0=
+    update: true
+    slot: 11
+    display_name: '&#EE9898ʙ&#EC969Cᴜ&#EB94A0ɪ&#E992A4ʟ&#E891A9ᴅ&#E68FADɪ&#E48DB1ɴ&#E38BB5ɢ &#E189B9ᴄ&#DF87BDʜ&#DE85C1ᴀ&#DC83C5ʟ&#DB82CAʟ&#D980CEᴇ&#D77ED2ɴ&#D67CD6ɢ&#D47ADAᴇ'
+    lore:
+     - ""
+     - "&#6EF195ʀ&#5EEFA4ᴇ&#4FEDB3ᴡ&#3FEBC2ᴀ&#2FE9D0ʀ&#1FE7DFᴅ&#10E5EEꜱ&#00E3FD:" 
+     - "&2&l• &a$100"
+     - "&2&l• &aChallenger Rank"
+     - "&2&l• &a“Giga-pick” &7&o(Efficiency 7)"
+     - ""
+     - "&#099773&lᴛɪᴍᴇ ʟᴇꜰᴛ:"
+     - "&2&l• &a%server_countdown_MM/dd/yyyy-HH:mm_09/16/2023-18:00%"
+
+  'ffaChallenge':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDFiOTc2NzlhNjYxNjk3MWM1OGM3Yzg0MGZlYTc4ZGY1NTc0NDY5ZWRhOTFiNTNlZjgwNThjYWNkZTBlMDIwYSJ9fX0=
+    update: true
+    slot: 12
+    display_name: '&#EE9898ꜰ&#ED979Bʀ&#EC959Eᴇ&#EA94A1ᴇ &#E992A5ꜰ&#E891A8ᴏ&#E78FABʀ &#E58EAEᴀ&#E48DB1ʟ&#E38BB4ʟ &#E28AB7ᴘ&#E088BBᴠ&#DF87BEᴘ &#DE85C1ᴄ&#DD84C4ʜ&#DB83C7ᴀ&#DA81CAʟ&#D980CDʟ&#D87ED1ᴇ&#D67DD4ɴ&#D57BD7ɢ&#D47ADAᴇ'
+    lore:
+     - ""
+     - "&#6EF195ʀ&#5EEFA4ᴇ&#4FEDB3ᴡ&#3FEBC2ᴀ&#2FE9D0ʀ&#1FE7DFᴅ&#10E5EEꜱ&#00E3FD:" 
+     - "&2&l• &a$100"
+     - "&2&l• &aChallenger Rank"
+     - "&2&l• &aMaxed Sharp 7 Netherite sword"
+     - ""
+     - "&#099773&lᴛɪᴍᴇ ʟᴇꜰᴛ:"
+     - "&2&l• &a%server_countdown_MM/dd/yyyy-HH:mm_09/23/2023-18:00%"
+     
+  'baseEvaluation':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZiMjkwYTEzZGY4ODI2N2VhNWY1ZmNmNzk2YjYxNTdmZjY0Y2NlZTVjZDM5ZDQ2OTcyNDU5MWJhYmVlZDFmNiJ9fX0=
+    update: true
+    slot: 13
+    display_name: '&#EE9898ʙ&#EC969Cᴇ&#EB94A0ꜱ&#E993A4ᴛ &#E891A8ʙ&#E68FABᴀ&#E58DAFꜱ&#E38CB3ᴇ &#E28AB7ᴇ&#E088BBᴠ&#DF86BFᴀ&#DD85C3ʟ&#DC83C7ᴜ&#DA81CAᴀ&#D97FCEᴛ&#D77ED2ɪ&#D67CD6ᴏ&#D47ADAɴ'
+    lore:
+     - ""
+     - "&#6EF195ʀ&#5EEFA4ᴇ&#4FEDB3ᴡ&#3FEBC2ᴀ&#2FE9D0ʀ&#1FE7DFᴅ&#10E5EEꜱ&#00E3FD:" 
+     - "&2&l• &a$250"
+     - ""
+     - "&#099773&lᴛɪᴍᴇ ʟᴇꜰᴛ:"
+     - "&2&l• &a%server_countdown_MM/dd/yyyy-HH:mm_09/30/2023-18:00%"
+
+  'videoChallenge':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdjYWZhMzlkYmVlMGZhYzQzNTVmOTlhNzEyYmE2OTlmODhkNmQyOTc4MjhiNDA3ODljMzYxZjhkOGZlYWQ2MSJ9fX0=
+    update: true
+    slot: 14
+    display_name: '&#EE9898ᴅ&#ED979Bᴏ&#EC959Eᴏ&#EA94A1ᴍ&#E993A4ꜱ&#E891A7ᴅ&#E790AAᴀ&#E68EADʏ &#E58DB0ᴠ&#E38CB3ɪ&#E28AB6ᴅ&#E189B9ᴇ&#E088BCᴏ &#DF86BFᴄ&#DD85C2ʜ&#DC84C5ᴀ&#DB82C8ʟ&#DA81CBʟ&#D97FCEᴇ&#D87ED1ɴ&#D67DD4ᴇ&#D57BD7ɢ&#D47ADAᴇ'
+    lore:
+     - ""
+     - "&#6EF195ʀ&#5EEFA4ᴇ&#4FEDB3ᴡ&#3FEBC2ᴀ&#2FE9D0ʀ&#1FE7DFᴅ&#10E5EEꜱ&#00E3FD:" 
+     - "&2&l• &aClick me for more info"
+     - ""
+     - "&#099773&lᴛɪᴍᴇ ʟᴇꜰᴛ:"
+     - "&2&l• &7&on/a"
+    left_click_commands:
+    - '[close]'
+    - '[console] tellraw %player_name% {"text":"[Click Me]","color":"#FF0000","clickEvent":{"action":"open_url","value":"https://discord.com/channels/756284125819830354/1142200630329491578/1142200630329491578"},"hoverEvent":{"action":"show_text","contents":[{"text":"ᴄʟɪᴄᴋ ᴍᴇ ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ","color":"red"}]}}'
+
+  'dragonFights':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTBjYmI4YmQzMmE5Zjg3MjAyYjk3MWY2MzZiNzAyZjk4ZDUxOThjOGM0ZWRmZGZmYmZlY2JhODlmN2E1OTE1NSJ9fX0=
+    update: true
+    slot: 15
+    display_name: '&#EE9898ꜱ&#ED979Bᴜ&#EC959Eɴ&#EB94A1ᴅ&#E993A3ᴀ&#E891A6ʏ &#E790A9ꜱ&#E68FACᴇ&#E58EAFʀ&#E48CB2ᴠ&#E38BB5ᴇ&#E28AB8ʀ &#E088BAᴅ&#DF87BDʀ&#DE86C0ᴀ&#DD84C3ɢ&#DC83C6ᴏ&#DB82C9ɴ &#DA81CCꜰ&#D97FCFɪ&#D77ED1ɢ&#D67DD4ʜ&#D57BD7ᴛ&#D47ADAꜱ'
+    lore:
+     - "" 
+     - "&2&l• &7The upgraded Dragon gets more powerful each time"
+     - ""
+     - "&#099773&lᴛɪᴍᴇ ʟᴇꜰᴛ:"
+     - "&2&l• &a%server_countdown_MM/dd/yyyy-HH:mm_09/17/2023-18:00%"
+     - "&2&l• &a%server_countdown_MM/dd/yyyy-HH:mm_09/24/2023-18:00%"

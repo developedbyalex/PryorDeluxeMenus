@@ -1,0 +1,75 @@
+#  _____                                _               __  __                             _____             _    
+# |  __ \                              | |             |  \/  |                           |  __ \           | |   
+# | |  | | ___   ___  _ __ ___  ___  __| | __ _ _   _  | \  / | ___ _ __  _   _   ______  | |__) |__ _ _ __ | | __
+# | |  | |/ _ \ / _ \| '_ ` _ \/ __|/ _` |/ _` | | | | | |\/| |/ _ \ '_ \| | | | |______| |  _  // _` | '_ \| |/ /
+# | |__| | (_) | (_) | | | | | \__ \ (_| | (_| | |_| | | |  | |  __/ | | | |_| |          | | \ \ (_| | | | |   < 
+# |_____/ \___/ \___/|_| |_| |_|___/\__,_|\__,_|\__, | |_|  |_|\___|_| |_|\__,_|          |_|  \_\__,_|_| |_|_|\_\
+#                                                __/ |                                                            
+#                                               |___/                                                                                                                                
+
+open_command: rankinfo
+register_command: true
+size: 27
+menu_title: '            &#BC556F&lʀ&#C5606F&lᴀ&#CD6C6F&lɴ&#D6776F&lᴋ &#DF8270&lɪ&#E88D70&lɴ&#F09970&lꜰ&#F9A470&lᴏ'
+update_interval: 1
+
+
+items:
+  'fillerItems':
+    material: BLACK_STAINED_GLASS_PANE
+    slots: 
+    - 0-9
+    - 11
+    - 13
+    - 15
+    - 17-27
+    
+  'standard':
+    material: COAL
+    update: true
+    slot: 10
+    display_name: '&#F4762Dꜱ&#F07C2Dᴛ&#ED822Dᴀ&#E9882Dɴ&#E68E2Eᴅ&#E2942Eᴀ&#DF9A2Eʀ&#DBA02Eᴅ'
+    lore:
+     - "&#D230B3&lʀ&#D53BB8&lᴀ&#D846BD&lɴ&#DB50C2&lᴋ &#DE5BC7&lᴘ&#E066CB&lᴇ&#E371D0&lʀ&#E67BD5&lᴋ&#E986DA&lꜱ"
+     - "&8&l» &71 hour respawn time on Doomsday"
+     - ""
+     - "&#ECA8DF&lʜ&#E99BDB&lᴏ&#E68FD6&lᴡ &#E282D2&lᴛ&#DF76CE&lᴏ &#DC69C9&lᴏ&#D95DC5&lʙ&#D650C0&lᴛ&#D344BC&lᴀ&#CF37B8&lɪ&#CC2BB3&lɴ&#C91EAF&l:"
+     - "&7&on/a"
+  'VIP':
+    material: IRON_INGOT
+    update: true
+    slot: 12
+    display_name: '&#F4762D&lV&#E88B2E&lI&#DBA02E&lP'
+    lore:
+     - "&#D230B3&lʀ&#D53BB8&lᴀ&#D846BD&lɴ&#DB50C2&lᴋ &#DE5BC7&lᴘ&#E066CB&lᴇ&#E371D0&lʀ&#E67BD5&lᴋ&#E986DA&lꜱ"
+     - "&8&l» &730 min respawn time on Doomsday"
+     - "&8&l» &7Priority server access"
+     - ""
+     - "&#ECA8DF&lʜ&#E99BDB&lᴏ&#E68FD6&lᴡ &#E282D2&lᴛ&#DF76CE&lᴏ &#DC69C9&lᴏ&#D95DC5&lʙ&#D650C0&lᴛ&#D344BC&lᴀ&#CF37B8&lɪ&#CC2BB3&lɴ&#C91EAF&l:"
+     - "&7Become a Patron for &a$4&7/month"
+  'CW':
+    material: GOLD_INGOT
+    update: true
+    slot: 14
+    display_name: '&#F4762D&lC&#F2792D&lh&#F07C2D&la&#EF7F2D&ll&#ED822D&ll&#EB852D&le&#E9882D&ln&#E88B2E&lg&#E68E2E&le &#E4912E&lW&#E2942E&li&#E0972E&ln&#DF9A2E&ln&#DD9D2E&le&#DBA02E&lr'
+    lore:
+     - "&#D230B3&lʀ&#D53BB8&lᴀ&#D846BD&lɴ&#DB50C2&lᴋ &#DE5BC7&lᴘ&#E066CB&lᴇ&#E371D0&lʀ&#E67BD5&lᴋ&#E986DA&lꜱ"
+     - "&8&l» &720 min respawn time on Doomsday"
+     - ""
+     - "&#ECA8DF&lʜ&#E99BDB&lᴏ&#E68FD6&lᴡ &#E282D2&lᴛ&#DF76CE&lᴏ &#DC69C9&lᴏ&#D95DC5&lʙ&#D650C0&lᴛ&#D344BC&lᴀ&#CF37B8&lɪ&#CC2BB3&lɴ&#C91EAF&l:"
+     - "&7Winning one of our official challenges/events"
+  'CC':
+    material: DIAMOND
+    update: true
+    slot: 16
+    display_name: '&#F4762D&lC&#F2792D&lo&#F07C2D&ln&#EE802D&lt&#EC832D&le&#EA862D&ln&#E8892D&lt &#E78D2E&lC&#E5902E&lr&#E3932E&le&#E1962E&la&#DF9A2E&lt&#DD9D2E&lo&#DBA02E&lr'
+    lore:
+     - "&#D230B3&lʀ&#D53BB8&lᴀ&#D846BD&lɴ&#DB50C2&lᴋ &#DE5BC7&lᴘ&#E066CB&lᴇ&#E371D0&lʀ&#E67BD5&lᴋ&#E986DA&lꜱ"
+     - "&8&l» &710 min respawn time on Doomsday"
+     - ""
+     - "&#ECA8DF&lʜ&#E99BDB&lᴏ&#E68FD6&lᴡ &#E282D2&lᴛ&#DF76CE&lᴏ &#DC69C9&lᴏ&#D95DC5&lʙ&#D650C0&lᴛ&#D344BC&lᴀ&#CF37B8&lɪ&#CC2BB3&lɴ&#C91EAF&l: &7&o(One requirement must be met)"
+     - "&7Have 100k+ YT subscribers making long-form content"
+     - "&7Have 250K+ TikTok, YouTube shorts, Instagram, or Facebook followers"
+     - "&7Have average 500+ concurrent stream viewers"
+     - "&7Make a video about/on PryorMC (server IP in video or description)"
+     - "&7that gets over 100k views on any platform."

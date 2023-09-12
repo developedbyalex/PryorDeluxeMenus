@@ -1,0 +1,108 @@
+#  _____                                _               __  __                  
+# |  __ \                              | |             |  \/  |                 
+# | |  | | ___   ___  _ __ ___  ___  __| | __ _ _   _  | \  / | ___ _ __  _   _ 
+# | |  | |/ _ \ / _ \| '_ ` _ \/ __|/ _` |/ _` | | | | | |\/| |/ _ \ '_ \| | | |
+# | |__| | (_) | (_) | | | | | \__ \ (_| | (_| | |_| | | |  | |  __/ | | | |_| |
+# |_____/ \___/ \___/|_| |_| |_|___/\__,_|\__,_|\__, | |_|  |_|\___|_| |_|\__,_|
+#                                                __/ |                          
+#                                               |___/                           
+
+open_command: doomsday
+register_command: true
+size: 45
+menu_title: '  &#FF421D&lᴘ&#FA4025&lʀ&#F53F2D&lʏ&#F03D36&lᴏ&#EB3B3E&lʀ&#E63946&l''&#E1384E&lꜱ &#DC3656&lᴅ&#D7345F&lᴏ&#D23267&lᴏ&#CD316F&lᴍ&#C82F77&lꜱ&#C32D80&lᴅ&#BE2B88&lᴀ&#B92A90&lʏ &#B42898&lᴇ&#AF26A0&lᴠ&#AA24A9&lᴇ&#A523B1&lɴ&#A021B9&lᴛ'
+update_interval: 1
+
+
+items:
+  'fillerItems':
+    material: BLACK_STAINED_GLASS_PANE
+    slots: 
+    - 0-12
+    - 14-28
+    - 34-45
+    
+  'countdown':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmY4OGY5N2YzNjA3MmRlYmVmYWNlMmUzODFlZTcxYjgzM2ViZGVhOGU0MmNmMjliYmUzZGM1MTk5OGViZjJiZSJ9fX0=
+    update: true
+    slot: 13
+    display_name: '&#EF745C&lᴅ&#E36D5A&lᴏ&#D86658&lᴏ&#CC6056&lᴍ&#C05954&lꜱ&#B55252&lᴅ&#A94B50&lᴀ&#9D444E&lʏ &#923E4D&lᴄ&#86374B&lᴏ&#7A3049&lᴜ&#6E2947&lɴ&#632245&lᴛ&#571B43&lᴅ&#4B1541&lᴏ&#400E3F&lᴡ&#34073D&lɴ'
+    lore:
+     - "&#EF745C&l&m+                       &#EF745C&l&m+"
+     - "&7&l» &#FF421D%server_countdown_MM/dd/yyyy-HH:mm_10/01/2023-18:00% " 
+     - "&#EF745C&l&m+                       &#EF745C&l&m+"
+
+  'moneyReward':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTVmZDY3ZDU2ZmZjNTNmYjM2MGExNzg3OWQ5YjUzMzhkNzMzMmQ4ZjEyOTQ5MWE1ZTE3ZThkNmU4YWVhNmMzYSJ9fX0=
+    slot: 29
+    display_name: '&#82F4B1&lᴋ&#79EFAB&lɪ&#70EAA5&lʟ&#67E59F&lʟ &#5EE099&lʀ&#54DA94&lᴇ&#4BD58E&lᴡ&#42D088&lᴀ&#39CB82&lʀ&#30C67C&lᴅ'
+    lore:
+     - "&#282928&l&m+                            &#282928&l&m+"
+     - ""
+     - "&7ɢᴇᴛ &a&l$10 &7ᴇᴠᴇʀʏᴛɪᴍᴇ ʏᴏᴜ ᴋɪʟʟ ᴘʀʏᴏʀ"
+     - ""
+     - "&#282928&l&m+                            &#282928&l&m+"
+     
+  'events':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTdkN2IzYzhlNTczNWIwZGEzZGI3NGFiZmRjZTg3MGMyZTkwNDY4OWY1Y2IyYzI5YmNkMmE1MWVkNzFmZGRmZiJ9fX0=
+    slot: 30
+    display_name: '&#F7A2A1&lᴇ&#F9B181&lᴠ&#FAC061&lᴇ&#FCCF40&lɴ&#FDDE20&lᴛ&#FFED00&lꜱ'
+    lore:
+     - "&#282928&l&m+                            &#282928&l&m+"
+     - ""
+     - "&7ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ꜱᴇᴇ ᴀᴅᴅɪᴛɪᴏɴᴀʟ ᴇᴠᴇɴᴛꜱ!"
+     - ""
+     - "&#282928&l&m+                            &#282928&l&m+"
+    left_click_commands:
+    - '[close]'
+    - '[player] extraevents'
+
+  'ranks':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzA0MGZlODM2YTZjMmZiZDJjN2E5YzhlYzZiZTUxNzRmZGRmMWFjMjBmNTVlMzY2MTU2ZmE1ZjcxMmUxMCJ9fX0=
+    slot: 31
+    display_name: '&#0061FF&lʀ&#0E75FF&lᴀ&#1B8AFF&lɴ&#299EFF&lᴋ &#37B2FF&lɪ&#45C6FF&lɴ&#52DBFF&lꜰ&#60EFFF&lᴏ'
+    lore:
+     - "&#282928&l&m+                            &#282928&l&m+"
+     - ""
+     - "&7ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ᴠɪᴇᴡ ᴀᴅᴅɪᴛɪᴏɴᴀʟ ʀᴀɴᴋꜱ!"
+     - ""
+     - "&#282928&l&m+                            &#282928&l&m+"
+    left_click_commands:
+    - '[close]'
+    - '[player] rankinfo'
+    
+  'takePart':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJmNmMwN2EzMjZkZWY5ODRlNzJmNzcyZWQ2NDU0NDlmNWVjOTZjNmNhMjU2NDk5YjVkMmI4NGE4ZGNlIn19fQ==
+    slot: 32
+    display_name: '&#FF0000&lʙ&#FF0909&lᴇ &#FE1111&lɪ&#FE1A1A&lɴ &#FE2222&lᴛ&#FE2B2B&lʜ&#FD3333&lᴇ &#FD3C3C&lᴅ&#FD4444&lᴏ&#FD4D4D&lᴏ&#FC5555&lᴍ&#FC5E5E&lꜱ&#FC6666&lᴅ&#FC6F6F&lᴀ&#FB7777&lʏ &#FB8080&lᴠ&#FB8888&lɪ&#FB9191&lᴅ&#FA9999&lᴇ&#FAA2A2&lᴏ'
+    lore:
+     - "&#282928&l&m+                            &#282928&l&m+"
+     - ""
+     - "&6• &7ʙᴜɪʟᴅ/ʀᴇᴄᴏʀᴅ ʏᴏᴜʀ ᴏᴡɴ ɴᴀʀʀᴀᴛɪᴠᴇ ᴏꜰ ᴡʜᴀᴛ ʏᴏᴜ ᴅᴏ"
+     - "&6• &7ᴏʀɢᴀɴɪᴢᴇ ᴛʜᴇꜱᴇ ɴᴀʀʀᴀᴛɪᴠᴇꜱ ʙʏ ᴅᴀʏ"
+     - "&6• &7ᴅᴏɴ'ᴛ ꜱᴇɴᴅ ʟᴏɴɢ ʀᴇᴄᴏʀᴅɪɴɢꜱ."
+     - "&6• &7ꜱᴇɴᴅ ɪɴ ᴛʜᴇ ʀᴇᴘʟᴀʏ ᴍᴏᴅ, ᴛɪᴍᴇ-ʟᴀᴘꜱᴇ ʀᴇᴄᴏʀᴅɪɴɢꜱ"
+     - "&6• &7ꜱᴇɴᴅ ɢᴏᴏɢʟᴇ ᴅʀɪᴠᴇ ʟɪɴᴋꜱ ᴡʜᴇɴ ᴛʜᴇ ꜱᴇʀɪᴇꜱ ᴄᴏɴᴄʟᴜᴅᴇꜱ ᴛᴏ"
+     - "&6• &aᴘʀʏᴏʀᴍᴄ.ᴄᴏ@ɢᴍᴀɪʟ.ᴄᴏᴍ"
+     - ""
+     - "&#282928&l&m+                            &#282928&l&m+"
+
+  'schedule':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY5OTBmNzM2MzBjNGJiZDVmZGIwOTBlNTE2ZDQ1NTExOTBiN2U2OTJjOTA0NjEyMjM2MDI4ZjVlZDhmODgyOSJ9fX0=
+    slot: 33
+    display_name: '&#F6CFBE&lꜱ&#F1D0C2&lᴛ&#EDD1C6&lʀ&#E8D2CA&lᴇ&#E3D3CE&lᴀ&#DFD4D2&lᴍ &#DAD5D6&lꜱ&#D5D6DA&lᴄ&#D0D7DE&lʜ&#CCD8E2&lᴇ&#C7D9E6&lᴅ&#C2DAEA&lᴜ&#BEDBEE&lʟ&#B9DCF2&lᴇ'
+    lore:
+     - "&#282928&l&m+                            &#282928&l&m+"
+     - ""
+     - "&6• &7ꜱᴛᴀʀᴛɪɴɢ ᴀᴛ 1ᴘᴍ ᴇꜱᴛ ᴅᴀɪʟʏ"
+     - "&6• &7ᴏɴ ʏᴏᴜᴛᴜʙᴇ ᴀɴᴅ ᴛɪᴋᴛᴏᴋ"
+     - "&6• &7ᴘʟᴀɴ ɪꜱ ᴛᴏ ꜱᴛʀᴇᴀᴍ 3-5 ʜᴏᴜʀꜱ ᴘᴇʀ ᴅᴀʏ"
+     - ""
+     - "&7&oᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ʟɪɴᴋꜱ"
+     - ""
+     - "&#282928&l&m+                            &#282928&l&m+"
+    left_click_commands:
+    - '[close]'
+    - '[console] tellraw %player_name% {"text":"Click me for Tiktok","color":"#FEA9A9","clickEvent":{"action":"open_url","value":"https://www.tiktok.com/@pryor_gaming"},"hoverEvent":{"action":"show_text","contents":[{"text":"ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ᴏᴘᴇɴ ᴛɪᴋᴛᴏᴋ","color":"red"}]}}'
+    - '[console] tellraw %player_name% {"text":"Click me for YouTube","color":"#FF0000","clickEvent":{"action":"open_url","value":"https://www.youtube.com/@PryorGaming"},"hoverEvent":{"action":"show_text","contents":[{"text":"ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ᴏᴘᴇɴ ʏᴏᴜᴛᴜʙᴇ","color":"red"}]}}'
+    - '[sound] ENTITY_VILLAGER_CELEBRATE'
